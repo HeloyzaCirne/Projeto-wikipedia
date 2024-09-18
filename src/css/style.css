@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*INDEX*/
+.cabecalho {
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.cabecalho .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho .container .titulo {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sublinha {
+    width: 500px;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.cabecalho .container img {
+    margin: 10px auto;
+}
+
+.conteudoIndex {
+    padding: 30px;
+    margin: auto;
+}
+
+.conteudoIndex .subtitulo {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.conteudoIndex .link {
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: 700;
+    color: blue;
+    cursor: pointer;
+}
+
+.conteudoIndex .description {
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-inline: 10px;
+    line-height: 30px;
+}
+
+.conteudoIndex .verMais {
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.conteudoIndex .verMais hr {
+    width: 170px;
+    height: 5px;
+    margin: auto;
+    background-color: black;
+    cursor: pointer;
+}
+
+/*PAGINA*/
+.paginas {
+    padding: 30px;
+}
+
+.bloco {
+    padding: 20px;
+    background-color: white;
+}
+
+.bloco h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.bloco p {
+    margin-left: 40px;
+}
+
+.bloco hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tabelaDoSite {
+    width: 250px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.tabelaDoSite .cabecalhoDaTabela {
+    background-color: #70C3FF;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.tabelaDoSite .tabela {
+    padding: 30px;
+}
